@@ -8,7 +8,7 @@ document.querySelector('form').addEventListener('submit', function(event) {
   const username = document.querySelector('#username').value;
   const password = document.querySelector('#password').value;
 
-  fetch('http://apiflutter-001-site1.btempurl.com/api/Usuarios/ValidarUsuarios', {
+  fetch('https://apiflutter-001-site1.btempurl.com/api/Usuarios/ValidarUsuarios', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
