@@ -17,8 +17,7 @@ document.querySelector('form').addEventListener('submit', function(event) {
   })
   .then(response => response.json())
   .then(data => {
-    // aquí puedes hacer algo con la respuesta de tu API
-    console.log(data);
+
   })
   .catch(error => console.error(error));
 });
